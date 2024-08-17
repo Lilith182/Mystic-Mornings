@@ -103,43 +103,137 @@ p{
 /*footer*/
 .footer {
     background-color: #f8f9fa;
-    padding: 2rem 0;
+    padding: 20px;
+    text-align: center;
 }
 
-.footer-title h2 {
-    font-size: 2rem;
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.newsletter {
+    margin-bottom: 20px;
+}
+
+.newsletter input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 250px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #9C755C;
+    color: #fff;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background-color:#785343;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+.footer-links h4 {
+    margin-bottom: 10px;
+    
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin: 5px 0;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
     color: #333;
 }
 
-.footer-subscription input {
-    max-width: 300px;
+.footer-links ul li a:hover {
+    color: #785343;
 }
 
-.footer-subscription button {
-    font-size: 1rem;
+.footer-bottom {
+    margin-top: 20px;
 }
 
-.footer h5 {
-    font-size: 1.25rem;
-    margin-bottom: 1rem;
+.footer-bottom p {
+    margin: 0;
+    color: #333;
 }
 
-.footer ul {
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .footer-title h2 {
+        font-size: 1.5rem;
+    }
+    
+    .footer-subscription input {
+        max-width: 200px;
+    }
+    
+    .footer-subscription button {
+        font-size: 0.875rem;
+    }
+    
+    .footer-info {
+        flex-direction: column;
+    }
+    
+    .footer-company, .footer-socials {
+        margin-bottom: 1rem;
+    }
+}
+.footer-contact, .footer-hours {
+    flex: 1;
+}
+
+.footer-contact ul, .footer-hours ul {
     padding-left: 0;
 }
 
-.footer ul li {
+.footer-contact ul li, .footer-hours ul li {
     margin-bottom: 0.5rem;
 }
 
-.footer ul li a {
-    text-decoration: none;
-    color: #333;
-    transition: color 0.3s;
+.footer-contact ul li i, .footer-hours ul li i {
+    margin-right: 0.5rem;
 }
 
-.footer ul li a:hover {
-    color: #007bff;
+#back-to-top {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+#back-to-top i {
+    margin-right: 0.5rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .footer-contact-hours {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footer-contact, .footer-hours {
+        margin-bottom: 1rem;
+    }
 }
 
 /* Responsive styles */
