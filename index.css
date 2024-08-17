@@ -99,6 +99,64 @@ p{
     background-color: #785343 !important; /* Darker shade for hover effect */
     color: #F0EDE5 !important;
 }
+
+/*footer*/
+.footer {
+    background-color: #f8f9fa;
+    padding: 2rem 0;
+}
+
+.footer-title h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.footer-subscription input {
+    max-width: 300px;
+}
+
+.footer-subscription button {
+    font-size: 1rem;
+}
+
+.footer h5 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.footer ul {
+    padding-left: 0;
+}
+
+.footer ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.footer ul li a:hover {
+    color: #007bff;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .footer-title h2 {
+        font-size: 1.5rem;
+    }
+    
+    .footer-subscription input {
+        max-width: 200px;
+    }
+    
+    .footer-subscription button {
+        font-size: 0.875rem;
+    }
+}
+
 /* Media Queries */
 @media (max-width: 1200px) {
     .navbar-nav .nav-link {
@@ -168,5 +226,65 @@ p{
     .card-img-top {
         max-height: 100px;
         object-fit: cover;
+    }
+}
+
+.custom-margin {
+    margin-top: 2rem; /* Adjust as needed */
+}
+
+.custom-margin {
+    margin-top: 1rem; /* Adjust as needed */
+    padding: 1rem; /* Add some padding if needed */
+}
+
+.custom-margin {
+    margin-top: 2rem; /* Adjust margin as needed */
+    padding: 2rem; /* Add padding if needed */
+}
+
+/* Default styles for large screens */
+.custom-margin h1 {
+    font-size: 3rem; /* Larger font size on large screens */
+}
+
+.custom-margin p {
+    font-size: 1.25rem; /* Larger font size on large screens */
+}
+
+#reservebtn {
+    padding: 0.75rem 1.5rem; /* Larger padding for the button on large screens */
+    font-size: 1.25rem; /* Larger font size for the button on large screens */
+}
+
+/* Responsive styles for medium screens */
+@media (max-width: 992px) {
+    .custom-margin h1 {
+        font-size: 2.5rem; /* Slightly smaller font size on medium screens */
+    }
+    
+    .custom-margin p {
+        font-size: 1rem; /* Slightly smaller font size on medium screens */
+    }
+    
+    #reservebtn {
+        padding: 0.6rem 1.25rem; /* Adjust padding for medium screens */
+        font-size: 1.125rem; /* Adjust font size for the button on medium screens */
+    }
+}
+
+/* Responsive styles for small screens */
+@media (max-width: 576px) {
+    .custom-margin h1 {
+        font-size: 1.75rem; /* Smaller font size on small screens */
+    }
+    
+    .custom-margin p {
+        font-size: 0.875rem; /* Smaller font size on small screens */
+    }
+    
+    #reservebtn {
+        padding: 0.5rem 1rem; /* Smaller padding for the button on small screens */
+        font-size: 1rem; /* Smaller font size for the button on small screens */
     }
 }
