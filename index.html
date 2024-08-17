@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>Mystic Mornings</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<!-- Navbar --> 
+            <nav class="navbar navbar-expand-lg fixed-top shadow-sm">
+                <div class="container-lg">
+                    <a class="navbar-brand">
+                        <img src="/Mystic-Mornings/images/Logo.png" width="30" height="24" class="d-inline-block align-text-top">
+                        Mystic Mornings
+                    </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#hero">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#merch">Merchandise</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#reserve">Reservation</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link d-lg-none" href="#contact" >Contact Us</a>
+                      </li>
+                    </ul>
+                    <a class="btn d-none d-lg-block" href="#contact" id="contactbtn">Contact Us</a>
+                  </div>
+                </div>
+            </nav>
+ <!-- Hero -->
+            <div class="hero">
+                <div class="card text-bg-dark">
+                    <img src="/Mystic-Mornings/images/hero.png" class="card-img custom-img" alt="Banner">
+                    <div class="card-img-overlay d-flex align-items-center">
+                        <div class="col-sm-6 text-start ms-5">
+                            <h1 class="display-2 fw-bold">Mystic Mornings</h1>
+                            <p>Where every cup of coffee begins your day with a touch of enchantment and serenity.</p>
+                            <button class="btn btn-lg"> Explore Menu </button>
+                        </div>
+                    </div>
+                  </div>
+
+            </div>
+ <!-- Menu --> 
+            <div class="menu mt-5" id="menu">
+    <div class="container">
+    <h2 class="text-center"> Menu </h2>
+    <p class="description text-center">Our menu features artisanal coffee, freshly baked pastries, and hearty, 
+        homemade dishes crafted to elevate your mornings </p>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 mt-4">
+                    <div class="card h-100">
+                        <img src="/Mystic-Mornings/images/tiramisu.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Tiramisu</h5>
+                            <p class="price card-text">₱180</p>
+                            <p class="card-text">A classic Italian dessert featuring layers of coffee soaked ladyfingers, rich mascarpone, and a dusting of cocoa.</p>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mt-4">
+                    <div class="card h-100">
+                        <img src="/Mystic-Mornings/images/strawberry.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Strawberry Cake</h5>
+                            <p class="price card-text">₱160</p>
+                            <p class="card-text">A light and fluffy cake layered with fresh strawberries and whipped cream, bursting with sweet, fruity flavor.</p>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mt-4">
+                    <div class="card h-100">
+                        <img src="/Mystic-Mornings/images/cheesecake.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Cheesecake</h5>
+                            <p class="price card-text">₱170</p>
+                            <p class="card-text">A rich and creamy cheesecake with a buttery graham crust, perfect for a luxurious, indulgent dessert.</p>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mt-4">
+                    <div class="card h-100">
+                        <img src="/Mystic-Mornings/images/latte.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Latte</h5>
+                            <p class="price card-text">₱140</p>
+                            <p class="card-text">Smooth and creamy espresso combined with steamed milk, offering a balanced and satisfying coffee experience.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mt-4">
+                    <div class="card h-100">
+                        <img src="/Mystic-Mornings/images/hotchoco.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Hot Chocolate</h5>
+                            <p class="price card-text">₱120</p>
+                            <p class="card-text">A comforting, velvety hot chocolate made with premium cocoa, perfect for warming up your day.</p>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mt-4">
+                    <div class="card h-100">
+                        <img src="/Mystic-Mornings/images/affogato.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Affogato</h5>
+                            <p class="price card-text">₱150</p>
+                            <p class="card-text">A delightful blend of rich espresso poured over creamy vanilla ice cream for a sweet, energizing treat.</p>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+            </div>
+<!--About-->
+            <div class="about mt-5" id="about">
+                <div class="container">
+                    <h2 class="titledesc text-center"> About Us</h2>
+                    <p class="description text-center">Welcome to our cozy café, where we serve delightful coffee and freshly baked 
+                        pastries. Our atmosphere is warm and inviting, perfect for a relaxing break.</p> 
+                        
+                        <div class="container mt-5">
+                            <div class="row">
+                              <!-- Card 1 -->
+                              <div class="col-12 col-md-4 mb-3">
+                                <div class="card h-100" style="max-width: 540px;">
+                                  <div class="row g-0 flex-column flex-md-row">
+                                    <div class="col-12 col-md-8 d-flex flex-column justify-content-center">
+                                      <div class="card-body">
+                                        <h5 class="card-title">Enchanting Ambiance</h5>
+                                        <p class="card-text">A Serene Escape at Mystic Mornings</p>
+                                      </div>
+                                    </div>
+                                    <div class="col-12 col-md-4 d-flex justify-content-center justify-content-md-end align-items-center">
+                                      <img src="/Mystic-Mornings/images/ambiance.png" class="img-fluid rounded-start p-3" alt="...">
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                              <!-- Card 2 -->
+                              <div class="col-12 col-md-4 mb-3">
+                                <div class="card h-100" style="max-width: 540px;">
+                                  <div class="row g-0 flex-column flex-md-row">
+                                    <div class="col-12 col-md-8 d-flex flex-column justify-content-center">
+                                      <div class="card-body">
+                                        <h5 class="card-title">Freshly Baked Pastries</h5>
+                                        <p class="card-text">Handcrafted Delights to Enchant Your Palate</p>
+                                      </div>
+                                    </div>
+                                    <div class="col-12 col-md-4 d-flex justify-content-center justify-content-md-end align-items-center">
+                                      <img src="/Mystic-Mornings/images/fresh.png" class="img-fluid rounded-start p-3" alt="...">
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                              <!-- Card 3 -->
+                              <div class="col-12 col-md-4 mb-3">
+                                <div class="card h-100" style="max-width: 540px;">
+                                  <div class="row g-0 flex-column flex-md-row">
+                                    <div class="col-12 col-md-8 d-flex flex-column justify-content-center">
+                                      <div class="card-body">
+                                        <h5 class="card-title">Expertly Brewed Coffee</h5>
+                                        <p class="card-text">Relax on our sunny patio with a refreshing drink</p>
+                                      </div>
+                                    </div>
+                                    <div class="col-12 col-md-4 d-flex justify-content-center justify-content-md-end align-items-center">
+                                      <img src="/Mystic-Mornings/images/brewed.png" class="img-fluid rounded-start p-3" alt="...">
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>                                        
+                </div>
+            </div>
+<!--Merch-->
+    <div class="merch mt-5" id="merch">
+        <div class="container">
+            <h2 class="text-center"> Merchandise</h2>
+                <p class="description text-center">Explore our collection of charming mugs, stylish planners, and eco friendly tote 
+                        bags, perfect for adding a touch of mystique to your daily routine.</p> 
+                        <div class="container">
+                            <div class="row">
+                                <!-- Card 1 -->
+                                <div class="col-lg-4 col-sm-6 mt-4">
+                                    <div class="card h-100">
+                                        <img src="/Mystic-Mornings/images/BAG2.png" class="card-img-top" alt="Mystic Tote - White">
+                                        <div class="card-body d-flex flex-column">
+                                            <h5 class="card-title fw-bold">Mystic Tote - White</h5>
+                                            <p class="card-text">Stylish and eco friendly, the Mystic Tote is perfect for carrying your essentials with a touch of enchantment.</p>
+                                            <div class="mt-auto d-flex justify-content-between align-items-center">
+                                                <span class="price">₱250</span>
+                                                <a href="#" class="btn btn-primary">Buy Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Card 2 -->
+                                <div class="col-lg-4 col-sm-6 mt-4">
+                                    <div class="card h-100">
+                                        <img src="/Mystic-Mornings/images/BAG1.png" class="card-img-top" alt="Mystic Tote - Brown">
+                                        <div class="card-body d-flex flex-column">
+                                            <h5 class="card-title fw-bold">Mystic Tote - Brown</h5>
+                                            <p class="card-text">Stylish and eco friendly, the Mystic Tote is perfect for carrying your essentials with a touch of enchantment.</p>
+                                            <div class="mt-auto d-flex justify-content-between align-items-center">
+                                                <span class="price">₱250</span>
+                                                <a href="#" class="btn btn-primary">Buy Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Card 3 -->
+                                <div class="col-lg-4 col-sm-6 mt-4">
+                                    <div class="card h-100">
+                                        <img src="/Mystic-Mornings/images/NB1.png" class="card-img-top" alt="Morning Planner">
+                                        <div class="card-body d-flex flex-column">
+                                            <h5 class="card-title fw-bold">Morning Planner</h5>
+                                            <p class="card-text">Stay organized and inspired with the Morning Planner, featuring elegant designs and ample space for your notes and goals.</p>
+                                            <div class="mt-auto d-flex justify-content-between align-items-center">
+                                                <span class="price">₱350</span>
+                                                <a href="#" class="btn btn-primary">Buy Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Card 4 -->
+                                <div class="col-lg-4 col-sm-6 mt-4">
+                                    <div class="card h-100 mx-auto">
+                                        <img src="/Mystic-Mornings/images/MUGL2.png" class="card-img-top" alt="Enchanting Mug - White">
+                                        <div class="card-body d-flex flex-column">
+                                            <h5 class="card-title fw-bold">Enchanting Mug - White</h5>
+                                            <p class="card-text">Begin your day with our Enchanting Mug, a beautifully crafted ceramic piece perfect for enjoying your favorite brew.</p>
+                                            <div class="mt-auto d-flex justify-content-between align-items-center">
+                                                <span class="price">₱200</span>
+                                                <a href="#" class="btn btn-primary">Buy Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Card 5 -->
+                                <div class="col-lg-4 col-sm-6 mt-4">
+                                    <div class="card h-100 mx-auto">
+                                        <img src="/Mystic-Mornings/images/MUGD2.png" class="card-img-top" alt="Enchanting Mug - Brown">
+                                        <div class="card-body d-flex flex-column">
+                                            <h5 class="card-title fw-bold">Enchanting Mug - Brown</h5>
+                                            <p class="card-text">Begin your day with our Enchanting Mug, a beautifully crafted ceramic piece perfect for enjoying your favorite brew.</p>
+                                            <div class="mt-auto d-flex justify-content-between align-items-center">
+                                                <span class="price">₱200</span>
+                                                <a href="#" class="btn btn-primary">Buy Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Card 6 -->
+                                <div class="col-lg-4 col-sm-6 mt-4">
+                                    <div class="card h-100 mx-auto">
+                                        <img src="/Mystic-Mornings/images/tumbler.png" class="card-img-top" alt="Mystic Sip Tumbler">
+                                        <div class="card-body d-flex flex-column">
+                                            <h5 class="card-title fw-bold">Mystic Sip Tumbler</h5>
+                                            <p class="card-text">Stay refreshed with our Mystic Sip Tumbler, designed to keep drinks hot or cold for hours. Its sleek, durable design makes it perfect for daily use on the go.</p>
+                                            <div class="mt-auto d-flex justify-content-between align-items-center">
+                                                <span class="price">₱300</span>
+                                                <a href="#" class="btn btn-primary">Buy Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>        
+                    </div>
+    </div>
+    <div class="reserve" id="reserve">
+        <div class="card text-bg-dark border-0">
+            <img src="/Mystic-Mornings/images/Reservation.png" class="card-img custom-img" alt="Reservation">
+            <div class="card-img-overlay d-flex justify-content-center align-items-center bg-dark bg-opacity-50">
+                <div class="text-center text-light px-4 py-5">
+                    <h1 class="fw-bold display-4">Reserve Your Experience at Mystic Mornings</h1>
+                    <p class="lead mb-4">Easily book your table online and ensure your perfect place in our serene,
+                       enchanting café. Whether it's a cozy coffee date or a friendly gathering, your spot 
+                       will be ready and waiting for you.</p>
+                    <button class="btn btn-lg btn-outline-light" id="reservebtn">Reserve Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
